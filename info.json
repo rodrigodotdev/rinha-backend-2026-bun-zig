@@ -1,0 +1,7 @@
+{
+  "participants": ["Rodrigo Melo"],
+  "social": ["https://github.com/rodrigodotdev"],
+  "source-code-repo": "https://github.com/rodrigodotdev/rinha-backend-2026-bun-zig",
+  "stack": ["bun", "zig", "haproxy", "mmap", "ivf", "avx2"],
+  "open_to_work": false
+}

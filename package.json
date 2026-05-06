@@ -1,0 +1,18 @@
+{
+  "name": "rinha-backend-2026-bun-zig",
+  "module": "src/index.ts",
+  "type": "module",
+  "private": true,
+  "scripts": {
+    "dev": "bun run src/index.ts",
+    "typecheck": "tsc --noEmit",
+    "build": "bun build --compile --minify-whitespace --minify-syntax --outfile server src/index.ts",
+    "check": "bun run typecheck && bun run build"
+  },
+  "devDependencies": {
+    "@types/bun": "latest"
+  },
+  "peerDependencies": {
+    "typescript": "^5"
+  }
+}
